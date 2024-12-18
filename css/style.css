@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-heder-bg{
+    background-color: #FFF8F3;
+}
+.container-wrap{
+    width: 1440px;
+    margin: auto;
+}
 body{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -5,11 +16,17 @@ body{
 .logo-color{
     color: #FD6E0A;
 }
+.banner-bg{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: antiquewhite;
+    padding: 25px 0px;
 }
 nav ul{
     display: flex;
@@ -41,4 +58,28 @@ nav ul li a{
 
 .banner{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-container-bg{
+    text-align: center;
+    padding: 100px 0px;
+}
+.about-bg{
+    background-color: #FFF8F3;
+    padding: 100px 100px;
+    border-radius: 15px;
+}
+.contact-info{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skill-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
