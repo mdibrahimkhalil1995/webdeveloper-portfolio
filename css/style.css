@@ -38,3 +38,7 @@ nav ul li a{
     font-weight: 700;
     border-radius: 5px;
 }
+
+.banner{
+    display: flex;
+}
