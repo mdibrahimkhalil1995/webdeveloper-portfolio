@@ -83,3 +83,19 @@ nav ul li a{
     justify-content: space-between;
     align-items: center;
 }
+.resume{
+    padding: 50px 0px;
+}
+.summary-resume{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+
+}
+
+.resume-box1{
+    width: 500px;
+    border-bottom: .5px solid gray;
+
+}
