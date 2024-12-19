@@ -99,3 +99,15 @@ nav ul li a{
     border-bottom: .5px solid gray;
 
 }
+
+
+.footer-container-bg{
+    background-color: #FFF8F3;
+    padding: 100px 0px;
+    border-bottom: 25px solid #FD6E0A;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
